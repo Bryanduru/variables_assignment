@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Variables</title>
+    <style>
+        :root {
+            --text_color: blue;
+            --background_color: grey;
+            --font_size: 16px;
+        }
+
+        body {
+         font-size: var(--font-size);
+        }
+
+        .header {
+            color: var(--text_color);
+            padding: 10px;
+            text-align: center;
+        }
+
+        .content {
+            padding: 20px;
+            background: var(--background_color);
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Learning Variables</h1>
+    </header>
+    <div class="content">
+        <p>
+            This is me trying to understnd the Idea behind CSS variables and how they work
+        </p>
+    </div>
+</body>
+
+</html>
